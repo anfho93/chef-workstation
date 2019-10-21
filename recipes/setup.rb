@@ -1,5 +1,5 @@
 package 'Install packages' do
-  package_name Array['tree', 'ntp', 'nano', 'git']
+  package_name Array['tree', 'ntp', 'nano', 'git', 'emacs']
   action :install
 end
 
